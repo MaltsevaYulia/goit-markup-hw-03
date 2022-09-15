@@ -124,3 +124,6 @@
   color: var(--text-color);
 }
 /* Футер */
+.footer {
+  background: #2f303a;
+}
