@@ -3,11 +3,11 @@
   --text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+}
 
-  body {
-    font-family: 'Roboto ';
-    color: var(--primary-text-color);
-  }
+body {
+  font-family: 'Roboto ', sans-serif;
+  color: var(--primary-text-color);
 }
 .link {
   text-decoration: none;
@@ -24,13 +24,14 @@
   font-size: 26px;
   line-height: 0.84;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--accent-color);
 }
 .logo-part {
-  color: var(--accent-color);
+  color: #000000;
 }
 
 .header-nav .link {
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -46,6 +47,7 @@
   color: var(--accent-color);
 }
 .heder-contact .link {
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -66,6 +68,7 @@
   color: var(--primary-white-color);
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -87,8 +90,19 @@
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.advantage .section-title {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 }
 .advantage-item {
   font-weight: 700;
@@ -107,6 +121,12 @@
   color: var(--text-color);
 }
 /* Наша команда */
+.team {
+  background-color: F5F4FA;
+}
+.team-list {
+  background-color: #ffffff;
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -126,4 +146,64 @@
 /* Футер */
 .footer {
   background: #2f303a;
+}
+
+.footer-logo-part {
+  color: var(--primary-white-color);
+}
+
+.footer-adress {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.footer-mail,
+.footer-tel {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* -------Портфоліо-------- */
+
+.portfolio-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88x;
+  letter-spacing: 0.03em;
+  color: var(--text-color) ;
+}
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #F5F4FA;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
