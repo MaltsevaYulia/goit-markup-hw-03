@@ -28,7 +28,7 @@ body {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 0.84;
+  line-height: 1.19;
   color: var(--accent-color);
 }
 .logo-part {
@@ -44,10 +44,6 @@ body {
   color: var(--primary-text-color);
 }
 
-.nav-link .link .current {
-  color: var(--accent-color);
-}
-
 .header-nav .link:hover,
 .header-nav .link:focus {
   color: var(--accent-color);
@@ -56,6 +52,11 @@ body {
 .heder-contact .link:focus {
   color: var(--accent-color);
 }
+
+.header .nav-link .link .current {
+  color: var(--accent-color);
+}
+
 .heder-contact .link {
   font-family: inherit;
   font-weight: 500;
@@ -153,6 +154,11 @@ body {
 
 .footer-logo-part {
   color: var(--primary-white-color);
+}
+
+.footer-list a:hover,
+.footer-list a:focus {
+  color: var(--accent-color);
 }
 
 .footer-adress {
