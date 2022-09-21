@@ -68,6 +68,10 @@ img {
   color: var(--logo-part-color);
 }
 
+.header-nav {
+  display: flex;
+}
+
 .nav-link {
   font-family: inherit;
   font-weight: 500;
@@ -75,6 +79,12 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  /* margin-right: 50px; */
+  /* background-color: tomato; */
+}
+
+.header-nav li {
+  margin-right: 50px;
 }
 
 .nav-link:hover,
@@ -257,6 +267,16 @@ img {
 
 /* -------Портфоліо-------- */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-nav-btn {
+  /* padding-top: 94px; */
+  padding-bottom: 34px;
+}
+
 .portfolio-item {
   font-weight: 700;
   font-size: 18px;
@@ -286,4 +306,8 @@ img {
 .portfolio-btn:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+}
+.portfolio-card {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
