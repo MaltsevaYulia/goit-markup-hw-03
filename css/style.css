@@ -24,7 +24,35 @@ body {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  margin: 0 auto;
+}
+
 /* Header */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -78,6 +106,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
+  padding-top: 200px;
+  /* padding-bottom: 280px; */
+  margin-bottom: 30px;
+  max-width: 696px;
 }
 .hero-btn {
   font-family: inherit;
@@ -107,7 +139,16 @@ body {
   line-height: 1.17x;
   text-align: center;
   color: var(--primary-text-color);
+  /* padding-top: 94px; */
+  margin-bottom: 50px;
 }
+
+/* Преимущества */
+.advantage {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -127,6 +168,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-text-color);
+  margin-bottom: 10px;
 }
 
 .advantage-text {
@@ -134,9 +176,19 @@ body {
   line-height: 1.71;
   color: var(--text-color);
 }
+
+/* Чим ми займаємось */
+
+.activity {
+  padding-bottom: 94px;
+}
+
 /* Наша команда */
+
 .team {
   background-color: var(--secondary-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-list {
   background-color: var(--main-background);
@@ -147,6 +199,7 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--primary-text-color);
+  margin-bottom: 10px;
 }
 .team-text {
   font-size: 16px;
@@ -154,13 +207,24 @@ body {
   text-align: center;
   color: var(--text-color);
 }
+
+.card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* Футер */
 .footer {
   background: var(--page-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo-part {
   color: var(--primary-white-color);
+}
+
+.footer-list {
+  margin-top: 10px;
 }
 
 .footer-list a:hover,
