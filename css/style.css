@@ -22,6 +22,7 @@ body {
 }
 .list {
   list-style: none;
+  padding-left: 0;
 }
 
 h1,
@@ -36,9 +37,9 @@ ul {
   margin-bottom: 0;
 }
 
-ul {
+/* ul {
   padding-left: 0;
-}
+} */
 img {
   display: block;
 }
