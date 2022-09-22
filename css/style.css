@@ -57,6 +57,12 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
 }
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -70,29 +76,31 @@ img {
 
 .header-nav {
   display: flex;
+  margin-left: 93px;
 }
 
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  /* margin-right: 50px; */
-  /* background-color: tomato; */
 }
 
-.header-nav li {
-  margin-right: 50px;
+.header-nav .item + .item {
+  margin-left: 50px;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
 }
-.heder-contact .link:hover,
-.heder-contact .link:focus {
+.header-contact .link:hover,
+.header-contact .link:focus {
   color: var(--accent-color);
 }
 
@@ -100,7 +108,20 @@ img {
   color: var(--accent-color);
 }
 
-.heder-contact .link {
+.header-contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contact .item + .item {
+  margin-left: 50px;
+  /* background-color: tomato; */
+}
+
+.header-contact .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: inherit;
   font-weight: 500;
   /* font-size: 14px; */
@@ -111,6 +132,7 @@ img {
 /* Hero */
 .hero {
   background: var(--page-background);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
