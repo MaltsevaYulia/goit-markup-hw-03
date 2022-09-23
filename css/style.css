@@ -22,7 +22,6 @@ body {
 }
 .list {
   list-style: none;
-  /* padding-left: 0px; */
 }
 
 h1,
@@ -37,9 +36,9 @@ ul {
   margin-bottom: 0;
 }
 
-/* ul {
+ul {
   padding-left: 0;
-} */
+}
 img {
   display: block;
 }
@@ -115,7 +114,6 @@ img {
 
 .header-contact .item + .item {
   margin-left: 50px;
-  /* background-color: tomato; */
 }
 
 .header-contact .link {
@@ -207,6 +205,7 @@ img {
 
 .advantage .list {
   display: flex;
+  gap: 30px;
 }
 
 .advantage .item {
@@ -234,6 +233,11 @@ img {
 .activity {
   padding-bottom: 94px;
 }
+.activity .list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
 
 /* Наша команда */
 
@@ -242,6 +246,12 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.team .list {
+  display: flex;
+  gap: 30px;
+}
+
 .team-list {
   background-color: var(--main-background);
 }
@@ -312,22 +322,22 @@ img {
 
 .portfolio-nav-btn .list {
   display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .portfolio-nav-btn {
   /* padding-top: 94px; */
-  padding-bottom: 34px;
+  padding-bottom: 50px;
 }
 
 .portfolio-galary .list {
   display: flex;
   flex-wrap: wrap;
   padding-right: 0;
-  padding-left: 0;
 }
 
 .portfolio-galary .item {
-  background-color: tomato;
   max-width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -364,7 +374,11 @@ img {
   color: var(--primary-text-color);
   background-color: var(--secondary-background);
   cursor: pointer;
+  /* border-color: var(--secondary-background); */
+  border-style: none;
+  border-radius: 4px;
 }
+
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--accent-color);
@@ -373,4 +387,8 @@ img {
 .portfolio-card {
   padding-top: 20px;
   padding-bottom: 20px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
 }
