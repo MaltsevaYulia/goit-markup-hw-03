@@ -374,7 +374,6 @@ img {
   color: var(--primary-text-color);
   background-color: var(--secondary-background);
   cursor: pointer;
-  /* border-color: var(--secondary-background); */
   border-style: none;
   border-radius: 4px;
 }
