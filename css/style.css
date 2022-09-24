@@ -60,7 +60,7 @@ button {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .link {
@@ -75,8 +75,6 @@ button {
 
 /* Header */
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
   border-bottom: 1px solid #ececec;
 }
 
@@ -336,8 +334,6 @@ button {
 .footer-tel {
   font-family: inherit;
   font-style: normal;
-  /* font-weight: 400; */
-  /* font-size: 14px; */
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
