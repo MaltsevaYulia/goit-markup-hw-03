@@ -254,7 +254,7 @@ button {
 /* Чим ми займаємось */
 
 .activity {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 .activity .list {
   display: flex;
